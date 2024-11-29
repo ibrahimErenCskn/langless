@@ -21,7 +21,7 @@ export default function RootLayout({
       >
         <SessionProvider>
           <Header />
-          <div className="w-full px-24">
+          <div className="w-full px-2 sm:px-24 pt-4">
             {children}
           </div>
           <Toaster />
